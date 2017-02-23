@@ -1,0 +1,208 @@
+# Project: gce-cross-compile-for-winbloze
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = src/actionlistener.o src/dummyListModel.o src/fileio.o src/gce.o src/gcebase.o src/gceColourSelector.o src/gceFileDialog.o src/gceStringList.o src/mouselistener.o tinyxml/tinystr.o tinyxml/tinyxml.o tinyxml/tinyxmlerror.o tinyxml/tinyxmlparser.o ../guichan/src/actionevent.o ../guichan/src/basiccontainer.o ../guichan/src/cliprectangle.o ../guichan/src/color.o ../guichan/src/defaultfont.o ../guichan/src/event.o ../guichan/src/exception.o ../guichan/src/focushandler.o ../guichan/src/font.o ../guichan/src/genericinput.o ../guichan/src/graphics.o ../guichan/src/gui.o ../guichan/src/guichan.o ../guichan/src/image.o ../guichan/src/imagefont.o ../guichan/src/inputevent.o ../guichan/src/key.o ../guichan/src/keyevent.o ../guichan/src/keyinput.o ../guichan/src/mouseevent.o ../guichan/src/mouseinput.o ../guichan/src/rectangle.o ../guichan/src/selectionevent.o ../guichan/src/widget.o ../guichan/src/sdl/sdl.o ../guichan/src/sdl/sdlgraphics.o ../guichan/src/sdl/sdlimage.o ../guichan/src/sdl/sdlimageloader.o ../guichan/src/sdl/sdlinput.o ../guichan/src/widgets/button.o ../guichan/src/widgets/checkbox.o ../guichan/src/widgets/container.o ../guichan/src/widgets/dropdown.o ../guichan/src/widgets/icon.o ../guichan/src/widgets/imagebutton.o ../guichan/src/widgets/label.o ../guichan/src/widgets/listbox.o ../guichan/src/widgets/radiobutton.o ../guichan/src/widgets/scrollarea.o ../guichan/src/widgets/slider.o ../guichan/src/widgets/tab.o ../guichan/src/widgets/tabbedarea.o ../guichan/src/widgets/textbox.o ../guichan/src/widgets/textfield.o ../guichan/src/widgets/window.o $(RES)
+LINKOBJ  = src/actionlistener.o src/dummyListModel.o src/fileio.o src/gce.o src/gcebase.o src/gceColourSelector.o src/gceFileDialog.o src/gceStringList.o src/mouselistener.o tinyxml/tinystr.o tinyxml/tinyxml.o tinyxml/tinyxmlerror.o tinyxml/tinyxmlparser.o ../guichan/src/actionevent.o ../guichan/src/basiccontainer.o ../guichan/src/cliprectangle.o ../guichan/src/color.o ../guichan/src/defaultfont.o ../guichan/src/event.o ../guichan/src/exception.o ../guichan/src/focushandler.o ../guichan/src/font.o ../guichan/src/genericinput.o ../guichan/src/graphics.o ../guichan/src/gui.o ../guichan/src/guichan.o ../guichan/src/image.o ../guichan/src/imagefont.o ../guichan/src/inputevent.o ../guichan/src/key.o ../guichan/src/keyevent.o ../guichan/src/keyinput.o ../guichan/src/mouseevent.o ../guichan/src/mouseinput.o ../guichan/src/rectangle.o ../guichan/src/selectionevent.o ../guichan/src/widget.o ../guichan/src/sdl/sdl.o ../guichan/src/sdl/sdlgraphics.o ../guichan/src/sdl/sdlimage.o ../guichan/src/sdl/sdlimageloader.o ../guichan/src/sdl/sdlinput.o ../guichan/src/widgets/button.o ../guichan/src/widgets/checkbox.o ../guichan/src/widgets/container.o ../guichan/src/widgets/dropdown.o ../guichan/src/widgets/icon.o ../guichan/src/widgets/imagebutton.o ../guichan/src/widgets/label.o ../guichan/src/widgets/listbox.o ../guichan/src/widgets/radiobutton.o ../guichan/src/widgets/scrollarea.o ../guichan/src/widgets/slider.o ../guichan/src/widgets/tab.o ../guichan/src/widgets/tabbedarea.o ../guichan/src/widgets/textbox.o ../guichan/src/widgets/textfield.o ../guichan/src/widgets/window.o $(RES)
+LIBS =  -L"C:/Dev-Cpp/lib" -mwindows c:/Dev-Cpp/glib/lib/glib-2.0.lib c:/Dev-Cpp/glib/lib/gmodule-2.0.lib c:/Dev-Cpp/lib/libSDL_Image.a c:/Dev-Cpp/lib/libSDL.a c:/Dev-Cpp/lib/libSDLmain.a c:/Dev-Cpp/lib/libmingw32.a c:/Dev-Cpp/lib/libwinmm.a  -lmingw32  
+INCS =  -I"C:/Dev-Cpp/include"  -I"z:/home/chris/data/development/guichan/include"  -I"z:/home/chris/data/development/gce/include"  -I"c:/Dev-Cpp/include/SDL"  -I"z:/home/chris/data/development/gce/tinyxml"  -I"z:/home/chris/data/development/gce/plugins"  -I"c:/Dev-Cpp/glib/include/glib-2.0"  -I"c:/Dev-Cpp/glib/lib/glib-2.0/include" 
+CXXINCS =  -I"C:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"C:/Dev-Cpp/include/c++/3.4.2/backward"  -I"C:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"C:/Dev-Cpp/include/c++/3.4.2"  -I"C:/Dev-Cpp/include"  -I"z:/home/chris/data/development/guichan/include"  -I"z:/home/chris/data/development/gce/include"  -I"c:/Dev-Cpp/include/SDL"  -I"z:/home/chris/data/development/gce/tinyxml"  -I"z:/home/chris/data/development/gce/plugins"  -I"c:/Dev-Cpp/glib/include/glib-2.0"  -I"c:/Dev-Cpp/glib/lib/glib-2.0/include" 
+BIN  = gce-cross-compile-for-winbloze.exe
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS) -Dmain=SDL_main  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before gce-cross-compile-for-winbloze.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "gce-cross-compile-for-winbloze.exe" $(LIBS)
+
+src/actionlistener.o: src/actionlistener.cpp
+	$(CPP) -c src/actionlistener.cpp -o src/actionlistener.o $(CXXFLAGS)
+
+src/dummyListModel.o: src/dummyListModel.cpp
+	$(CPP) -c src/dummyListModel.cpp -o src/dummyListModel.o $(CXXFLAGS)
+
+src/fileio.o: src/fileio.cpp
+	$(CPP) -c src/fileio.cpp -o src/fileio.o $(CXXFLAGS)
+
+src/gce.o: src/gce.cpp
+	$(CPP) -c src/gce.cpp -o src/gce.o $(CXXFLAGS)
+
+src/gcebase.o: src/gcebase.cpp
+	$(CPP) -c src/gcebase.cpp -o src/gcebase.o $(CXXFLAGS)
+
+src/gceColourSelector.o: src/gceColourSelector.cpp
+	$(CPP) -c src/gceColourSelector.cpp -o src/gceColourSelector.o $(CXXFLAGS)
+
+src/gceFileDialog.o: src/gceFileDialog.cpp
+	$(CPP) -c src/gceFileDialog.cpp -o src/gceFileDialog.o $(CXXFLAGS)
+
+src/gceStringList.o: src/gceStringList.cpp
+	$(CPP) -c src/gceStringList.cpp -o src/gceStringList.o $(CXXFLAGS)
+
+src/mouselistener.o: src/mouselistener.cpp
+	$(CPP) -c src/mouselistener.cpp -o src/mouselistener.o $(CXXFLAGS)
+
+tinyxml/tinystr.o: tinyxml/tinystr.cpp
+	$(CPP) -c tinyxml/tinystr.cpp -o tinyxml/tinystr.o $(CXXFLAGS)
+
+tinyxml/tinyxml.o: tinyxml/tinyxml.cpp
+	$(CPP) -c tinyxml/tinyxml.cpp -o tinyxml/tinyxml.o $(CXXFLAGS)
+
+tinyxml/tinyxmlerror.o: tinyxml/tinyxmlerror.cpp
+	$(CPP) -c tinyxml/tinyxmlerror.cpp -o tinyxml/tinyxmlerror.o $(CXXFLAGS)
+
+tinyxml/tinyxmlparser.o: tinyxml/tinyxmlparser.cpp
+	$(CPP) -c tinyxml/tinyxmlparser.cpp -o tinyxml/tinyxmlparser.o $(CXXFLAGS)
+
+../guichan/src/actionevent.o: ../guichan/src/actionevent.cpp
+	$(CPP) -c ../guichan/src/actionevent.cpp -o ../guichan/src/actionevent.o $(CXXFLAGS)
+
+../guichan/src/basiccontainer.o: ../guichan/src/basiccontainer.cpp
+	$(CPP) -c ../guichan/src/basiccontainer.cpp -o ../guichan/src/basiccontainer.o $(CXXFLAGS)
+
+../guichan/src/cliprectangle.o: ../guichan/src/cliprectangle.cpp
+	$(CPP) -c ../guichan/src/cliprectangle.cpp -o ../guichan/src/cliprectangle.o $(CXXFLAGS)
+
+../guichan/src/color.o: ../guichan/src/color.cpp
+	$(CPP) -c ../guichan/src/color.cpp -o ../guichan/src/color.o $(CXXFLAGS)
+
+../guichan/src/defaultfont.o: ../guichan/src/defaultfont.cpp
+	$(CPP) -c ../guichan/src/defaultfont.cpp -o ../guichan/src/defaultfont.o $(CXXFLAGS)
+
+../guichan/src/event.o: ../guichan/src/event.cpp
+	$(CPP) -c ../guichan/src/event.cpp -o ../guichan/src/event.o $(CXXFLAGS)
+
+../guichan/src/exception.o: ../guichan/src/exception.cpp
+	$(CPP) -c ../guichan/src/exception.cpp -o ../guichan/src/exception.o $(CXXFLAGS)
+
+../guichan/src/focushandler.o: ../guichan/src/focushandler.cpp
+	$(CPP) -c ../guichan/src/focushandler.cpp -o ../guichan/src/focushandler.o $(CXXFLAGS)
+
+../guichan/src/font.o: ../guichan/src/font.cpp
+	$(CPP) -c ../guichan/src/font.cpp -o ../guichan/src/font.o $(CXXFLAGS)
+
+../guichan/src/genericinput.o: ../guichan/src/genericinput.cpp
+	$(CPP) -c ../guichan/src/genericinput.cpp -o ../guichan/src/genericinput.o $(CXXFLAGS)
+
+../guichan/src/graphics.o: ../guichan/src/graphics.cpp
+	$(CPP) -c ../guichan/src/graphics.cpp -o ../guichan/src/graphics.o $(CXXFLAGS)
+
+../guichan/src/gui.o: ../guichan/src/gui.cpp
+	$(CPP) -c ../guichan/src/gui.cpp -o ../guichan/src/gui.o $(CXXFLAGS)
+
+../guichan/src/guichan.o: ../guichan/src/guichan.cpp
+	$(CPP) -c ../guichan/src/guichan.cpp -o ../guichan/src/guichan.o $(CXXFLAGS)
+
+../guichan/src/image.o: ../guichan/src/image.cpp
+	$(CPP) -c ../guichan/src/image.cpp -o ../guichan/src/image.o $(CXXFLAGS)
+
+../guichan/src/imagefont.o: ../guichan/src/imagefont.cpp
+	$(CPP) -c ../guichan/src/imagefont.cpp -o ../guichan/src/imagefont.o $(CXXFLAGS)
+
+../guichan/src/inputevent.o: ../guichan/src/inputevent.cpp
+	$(CPP) -c ../guichan/src/inputevent.cpp -o ../guichan/src/inputevent.o $(CXXFLAGS)
+
+../guichan/src/key.o: ../guichan/src/key.cpp
+	$(CPP) -c ../guichan/src/key.cpp -o ../guichan/src/key.o $(CXXFLAGS)
+
+../guichan/src/keyevent.o: ../guichan/src/keyevent.cpp
+	$(CPP) -c ../guichan/src/keyevent.cpp -o ../guichan/src/keyevent.o $(CXXFLAGS)
+
+../guichan/src/keyinput.o: ../guichan/src/keyinput.cpp
+	$(CPP) -c ../guichan/src/keyinput.cpp -o ../guichan/src/keyinput.o $(CXXFLAGS)
+
+../guichan/src/mouseevent.o: ../guichan/src/mouseevent.cpp
+	$(CPP) -c ../guichan/src/mouseevent.cpp -o ../guichan/src/mouseevent.o $(CXXFLAGS)
+
+../guichan/src/mouseinput.o: ../guichan/src/mouseinput.cpp
+	$(CPP) -c ../guichan/src/mouseinput.cpp -o ../guichan/src/mouseinput.o $(CXXFLAGS)
+
+../guichan/src/rectangle.o: ../guichan/src/rectangle.cpp
+	$(CPP) -c ../guichan/src/rectangle.cpp -o ../guichan/src/rectangle.o $(CXXFLAGS)
+
+../guichan/src/selectionevent.o: ../guichan/src/selectionevent.cpp
+	$(CPP) -c ../guichan/src/selectionevent.cpp -o ../guichan/src/selectionevent.o $(CXXFLAGS)
+
+../guichan/src/widget.o: ../guichan/src/widget.cpp
+	$(CPP) -c ../guichan/src/widget.cpp -o ../guichan/src/widget.o $(CXXFLAGS)
+
+../guichan/src/sdl/sdl.o: ../guichan/src/sdl/sdl.cpp
+	$(CPP) -c ../guichan/src/sdl/sdl.cpp -o ../guichan/src/sdl/sdl.o $(CXXFLAGS)
+
+../guichan/src/sdl/sdlgraphics.o: ../guichan/src/sdl/sdlgraphics.cpp
+	$(CPP) -c ../guichan/src/sdl/sdlgraphics.cpp -o ../guichan/src/sdl/sdlgraphics.o $(CXXFLAGS)
+
+../guichan/src/sdl/sdlimage.o: ../guichan/src/sdl/sdlimage.cpp
+	$(CPP) -c ../guichan/src/sdl/sdlimage.cpp -o ../guichan/src/sdl/sdlimage.o $(CXXFLAGS)
+
+../guichan/src/sdl/sdlimageloader.o: ../guichan/src/sdl/sdlimageloader.cpp
+	$(CPP) -c ../guichan/src/sdl/sdlimageloader.cpp -o ../guichan/src/sdl/sdlimageloader.o $(CXXFLAGS)
+
+../guichan/src/sdl/sdlinput.o: ../guichan/src/sdl/sdlinput.cpp
+	$(CPP) -c ../guichan/src/sdl/sdlinput.cpp -o ../guichan/src/sdl/sdlinput.o $(CXXFLAGS)
+
+../guichan/src/widgets/button.o: ../guichan/src/widgets/button.cpp
+	$(CPP) -c ../guichan/src/widgets/button.cpp -o ../guichan/src/widgets/button.o $(CXXFLAGS)
+
+../guichan/src/widgets/checkbox.o: ../guichan/src/widgets/checkbox.cpp
+	$(CPP) -c ../guichan/src/widgets/checkbox.cpp -o ../guichan/src/widgets/checkbox.o $(CXXFLAGS)
+
+../guichan/src/widgets/container.o: ../guichan/src/widgets/container.cpp
+	$(CPP) -c ../guichan/src/widgets/container.cpp -o ../guichan/src/widgets/container.o $(CXXFLAGS)
+
+../guichan/src/widgets/dropdown.o: ../guichan/src/widgets/dropdown.cpp
+	$(CPP) -c ../guichan/src/widgets/dropdown.cpp -o ../guichan/src/widgets/dropdown.o $(CXXFLAGS)
+
+../guichan/src/widgets/icon.o: ../guichan/src/widgets/icon.cpp
+	$(CPP) -c ../guichan/src/widgets/icon.cpp -o ../guichan/src/widgets/icon.o $(CXXFLAGS)
+
+../guichan/src/widgets/imagebutton.o: ../guichan/src/widgets/imagebutton.cpp
+	$(CPP) -c ../guichan/src/widgets/imagebutton.cpp -o ../guichan/src/widgets/imagebutton.o $(CXXFLAGS)
+
+../guichan/src/widgets/label.o: ../guichan/src/widgets/label.cpp
+	$(CPP) -c ../guichan/src/widgets/label.cpp -o ../guichan/src/widgets/label.o $(CXXFLAGS)
+
+../guichan/src/widgets/listbox.o: ../guichan/src/widgets/listbox.cpp
+	$(CPP) -c ../guichan/src/widgets/listbox.cpp -o ../guichan/src/widgets/listbox.o $(CXXFLAGS)
+
+../guichan/src/widgets/radiobutton.o: ../guichan/src/widgets/radiobutton.cpp
+	$(CPP) -c ../guichan/src/widgets/radiobutton.cpp -o ../guichan/src/widgets/radiobutton.o $(CXXFLAGS)
+
+../guichan/src/widgets/scrollarea.o: ../guichan/src/widgets/scrollarea.cpp
+	$(CPP) -c ../guichan/src/widgets/scrollarea.cpp -o ../guichan/src/widgets/scrollarea.o $(CXXFLAGS)
+
+../guichan/src/widgets/slider.o: ../guichan/src/widgets/slider.cpp
+	$(CPP) -c ../guichan/src/widgets/slider.cpp -o ../guichan/src/widgets/slider.o $(CXXFLAGS)
+
+../guichan/src/widgets/tab.o: ../guichan/src/widgets/tab.cpp
+	$(CPP) -c ../guichan/src/widgets/tab.cpp -o ../guichan/src/widgets/tab.o $(CXXFLAGS)
+
+../guichan/src/widgets/tabbedarea.o: ../guichan/src/widgets/tabbedarea.cpp
+	$(CPP) -c ../guichan/src/widgets/tabbedarea.cpp -o ../guichan/src/widgets/tabbedarea.o $(CXXFLAGS)
+
+../guichan/src/widgets/textbox.o: ../guichan/src/widgets/textbox.cpp
+	$(CPP) -c ../guichan/src/widgets/textbox.cpp -o ../guichan/src/widgets/textbox.o $(CXXFLAGS)
+
+../guichan/src/widgets/textfield.o: ../guichan/src/widgets/textfield.cpp
+	$(CPP) -c ../guichan/src/widgets/textfield.cpp -o ../guichan/src/widgets/textfield.o $(CXXFLAGS)
+
+../guichan/src/widgets/window.o: ../guichan/src/widgets/window.cpp
+	$(CPP) -c ../guichan/src/widgets/window.cpp -o ../guichan/src/widgets/window.o $(CXXFLAGS)
+	
+win-plugs: \
+	./plugins/examplebutton.plug
+	./plugins/examplebutton.plug: plugins/examplebutton.cpp plugins/examplebutton.hpp plugins/examplebuttonplug.cpp include/plugin.hpp
+	/home/chris/drive_c/Dev-Cpp/bin/g++.exe $(DBG) -shared plugins/examplebutton.cpp plugins/examplebuttonplug.cpp -o plugins/examplebutton.plug $(LIBS) $(CFLAGS)
+
+

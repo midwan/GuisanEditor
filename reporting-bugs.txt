@@ -1,0 +1,27 @@
+Reporting bugs
+
+Basically don't!
+
+This is a developer tool not an end users tool
+
+As a developer using an open source project you should be supplying
+bug fixes (why else should a project be made open source?)
+
+If you are *really* not competent enough to code a bug fix then you
+should first search the code for *all* the TODO messages to see if its
+a known bug.
+
+You should search for *ALL* TODO messages in the *whole* code base
+as sometimes TODO's might be in unexpected places.
+
+As a LAST resort you should goto http://www.chris-camacho.com/contact
+
+"It doesnt work" type "reports" will be ignored as will anything else mentioned
+in a source code comment or documents
+
+
+**********************************************************************
+* Especially inept or incompetent communications will be made public *
+**********************************************************************
+
+

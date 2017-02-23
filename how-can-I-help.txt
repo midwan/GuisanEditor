@@ -1,0 +1,19 @@
+how can I help?
+
+first step is to generally browse the source code and get an overview
+of how it works
+
+Browse all the TODO messages
+
+Pick one you "like" ?! and address the issue...
+
+if a particular issue might be large or have consequences please
+contact http://www.chris-camacho.com/contact first to avoid
+wasting your time!
+
+
+*** PLUGINS ***
+
+If you have made a custom widget for guichan, convert it into an editor
+plugin and a loader plugin.
+There is basic documentation and skeleton code to help you with this

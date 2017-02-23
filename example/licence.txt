@@ -1,0 +1,7 @@
+Mr C.Camacho (the author) hereby grants the use of the
+plugin binaries and the loader code only, in commercial 
+products
+
+No changes may be made except under the terms of
+the CDDL licence v1.0
+
