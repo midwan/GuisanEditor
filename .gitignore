@@ -305,3 +305,8 @@ $RECYCLE.BIN/
 *.idb
 *.exe
 *.bsc
+tinyxml/tinyXmlTest___Win32_Debug/demotest.xml
+tinyxml/tinyXmlTest___Win32_Debug/test5.xml
+tinyxml/tinyXmlTest___Win32_Debug/textfile.txt
+tinyxml/tinyXmlTest___Win32_Debug/test6.xml
+tinyxml/tinyXmlTest___Win32_Debug/test7.xml
